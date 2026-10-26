@@ -4,7 +4,7 @@ import { jsPDF } from "jspdf";
 import ReactMarkdown from "react-markdown";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api/policies";
+const API_URL = "https://securegen-ai.onrender.com/api/policies";
 
 function Icon({ name, size = 18 }) {
   const common = {
